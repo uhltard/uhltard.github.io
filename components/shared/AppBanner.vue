@@ -43,7 +43,7 @@ export default {
           uppercase
         "
       >
-        Hi, Iam Stoman
+        Hi, I am Alex !
       </h1>
       <p
         class="
@@ -58,11 +58,11 @@ export default {
           text-gray-400
         "
       >
-        A Full-Stack Developer & Design Enthusiast
+        I'm working for Crédit Mutuel Arkéa where I make financial applications using Spring Boot, Vue.js and MySQL.
       </p>
       <div class="flex justify-center sm:block">
         <a
-          href="/Stoman-Resume.pdf"
+          href="/jeton_alex_curriculum_vitae.pdf"
           download=""
           class="
             flex
