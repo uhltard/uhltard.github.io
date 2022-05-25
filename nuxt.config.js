@@ -2,7 +2,7 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
   router: {
-    base: '/uhltard.github.io/'
+    base: '/'
   },
   colorMode: {
     classSuffix: "",
