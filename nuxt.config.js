@@ -1,15 +1,18 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
+  router: {
+    base: '/'
+  },
   colorMode: {
     classSuffix: "",
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Stoman Portfolio",
+    title: "Alex J.",
     htmlAttrs: {
-      lang: "en",
+      lang: "fr",
     },
     meta: [
       { charset: "utf-8" },
