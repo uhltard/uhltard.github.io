@@ -33,9 +33,9 @@ export default {
           sm:text-xl
           duration-300
         "
-        aria-label="More Projects"
+        aria-label="D'autres projets"
       >
-        <Button title="More Projects" />
+        <Button title="D'autres projets" />
       </NuxtLink>
     </div>
   </div>

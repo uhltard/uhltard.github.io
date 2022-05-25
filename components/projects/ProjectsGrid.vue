@@ -75,7 +75,7 @@ export default {
           mb-4
         "
       >
-        Search projects by title or filter by category
+        Vous pouvez rechercher des projets par titre ou les filtrer par catégorie.
       </h3>
       <div
         class="
@@ -127,7 +127,7 @@ export default {
             name="name"
             type="search"
             required=""
-            placeholder="Search Projects"
+            placeholder="Rechercher des projets"
             aria-label="Name"
           />
         </div>

@@ -3,7 +3,7 @@ export default {
   data: () => {
     return {
       relatedProject: {
-        relatedProjectsHeading: "Related Projects",
+        relatedProjectsHeading: "Projets associés",
         relatedProjects: [
           {
             id: 1,

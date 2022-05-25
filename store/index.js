@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 
 export const state = () => ({
-  projectsHeading: "Projects Portfolio",
+  projectsHeading: "Portfolio",
   projectsDescription: "Some of the projects I have successfully completed",
   projects: [
     {
