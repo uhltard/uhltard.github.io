@@ -43,7 +43,7 @@ export default {
             mb-5
           "
         >
-          🤝 Connect with Me
+          Restons en contact
         </p>
         <ul class="flex gap-4 sm:gap-8">
           <a

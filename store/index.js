@@ -778,6 +778,12 @@ export const state = () => ({
       icon: "linkedin",
       url: "www.linkedin.com/in/alex-jeton-b69469173",
     },
+    {
+      id: uuidv4(),
+      name: "email",
+      icon: "mail",
+      url: "mailto:jeton.alejandro@pymail.fr",
+    },
   ],
   categories: [
     {
