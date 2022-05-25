@@ -754,31 +754,18 @@ export const state = () => ({
       bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
     },
   ],
-  copyrightDate: new Date().getFullYear(),
   socialProfiles: [
     {
       id: uuidv4(),
       name: "GitHub",
       icon: "github",
-      url: "https://github.com/realstoman",
+      url: "https://github.com/uhltard",
     },
     {
       id: uuidv4(),
-      name: "Twitter",
-      icon: "twitter",
-      url: "https://twitter.com/realstoman",
-    },
-    {
-      id: uuidv4(),
-      name: "Medium",
-      icon: "book",
-      url: "https://stoman.medium.com",
-    },
-    {
-      id: uuidv4(),
-      name: "Instagram",
-      icon: "instagram",
-      url: "https://instagram.com/realstoman",
+      name: "Linkedin",
+      icon: "linkedin",
+      url: "www.linkedin.com/in/alex-jeton-b69469173",
     },
   ],
   categories: [
