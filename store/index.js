@@ -747,11 +747,22 @@ export const state = () => ({
   aboutMe: [
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+      bio:
+        "Actuellement étudiant à l’EFREI, je suis alternant au Crédit Mutuel Arkéa. " +
+        "Ceci me permet d’enrichir mes connaissances dans le domaine de la programmation (Vue.js et JAVA) et d’acquérir une méthode professionnelle."
     },
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+      bio:
+        "En 2019, j’ai été stagiaire pour le Centre National de la Recherche Scientifique (Institut " +
+        "Pierre Simon Laplace - École Polytechnique). Ainsi, J’ai eu l’occasion d’administrer un " +
+        "serveur en NodeJS, de gérer une base de données en MongoDB, et de programmer le " +
+        "front-end en Vue.JS.",
+    },
+    {
+      id: uuidv4(),
+      bio:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a dolor ullamcorper, tristique lectus a, tincidunt lacus. Aenean non commodo est. Proin in felis libero. Aenean et volutpat justo, non facilisis mauris. Nam semper, magna sed mollis volutpat, nibh dolor rutrum neque, quis sollicitudin neque lectus id nibh. Sed aliquam ligula augue, vel tristique lacus iaculis quis. Ut commodo pharetra dolor sed varius. "
     },
   ],
   socialProfiles: [
