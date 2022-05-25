@@ -40,8 +40,9 @@ export default {
         dark:border-secondary-dark
       "
       aria-label="About Me"
-      >About Me</NuxtLink
+      >À propos de moi</NuxtLink
     >
+    <!--
     <NuxtLink
       to="/contact"
       class="
@@ -62,6 +63,7 @@ export default {
       aria-label="Contact"
       >Contact</NuxtLink
     >
+    -->
     <div
       class="
         font-general-regular

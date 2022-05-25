@@ -35,21 +35,18 @@ export default {
           mb-8
         "
       >
-        Contact Form
+        Formulaire de contact
       </p>
       <form
-        @submit="
-          (e) => {
-            e.preventDefault;
-          }
-        "
+        action="https://formspree.io/f/mdobbepr"
+        method="POST"
         class="font-general-regular space-y-7"
       >
         <div class="">
           <label
             class="block text-lg text-primary-dark dark:text-primary-light mb-2"
             for="name"
-            >Full Name</label
+            >Nom</label
           >
           <input
             class="
@@ -71,8 +68,8 @@ export default {
             name="name"
             type="text"
             required=""
-            placeholder="Your Name"
-            aria-label="Name"
+            placeholder="Votre nom"
+            aria-label="Nom"
           />
         </div>
         <div class="mt-6">
@@ -101,7 +98,7 @@ export default {
             name="email"
             type="text"
             required=""
-            placeholder="Your Email"
+            placeholder="Votre Email"
             aria-label="Email"
           />
         </div>
@@ -109,7 +106,7 @@ export default {
           <label
             class="block text-lg text-primary-dark dark:text-primary-light mb-2"
             for="subject"
-            >Subject</label
+            >Sujet</label
           >
           <input
             class="
@@ -131,8 +128,8 @@ export default {
             name="subject"
             type="text"
             required=""
-            placeholder="Subject"
-            aria-label="Subject"
+            placeholder="Sujet"
+            aria-label="Sujet"
           />
         </div>
 
@@ -168,7 +165,7 @@ export default {
 
         <div class="mt-6">
           <Button
-            title="Send Message"
+            title="Envoyer"
             class="
               px-4
               py-2.5
@@ -181,7 +178,7 @@ export default {
               duration-500
             "
             type="submit"
-            aria-label="Send Message"
+            aria-label="Envoyer"
           />
         </div>
       </form>

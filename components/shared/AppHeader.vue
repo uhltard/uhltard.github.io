@@ -196,7 +196,7 @@ export default {
             @click="showModal()"
             aria-label="Hire Me Button"
           >
-            Hire Me
+            Contactez moi !
           </button>
         </div>
 
