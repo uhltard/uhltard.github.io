@@ -76,11 +76,8 @@ export default {
               </div>
               <div class="modal-body p-5 w-full h-full">
                 <form
-                  @submit="
-                    (e) => {
-                      e.preventDefault;
-                    }
-                  "
+                  action="https://formspree.io/f/mdobbepr"
+                  method="POST"
                   class="max-w-xl m-4 text-left"
                 >
                   <div class="mt-0">
