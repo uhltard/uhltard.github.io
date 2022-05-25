@@ -701,7 +701,7 @@ export const state = () => ({
       ],
     },
   ],
-  clientsHeading: "Some of the brands I worked with",
+  clientsHeading: "Quelques-unes des marques avec lesquelles j'ai travaillé.",
   clients: [
     {
       id: uuidv4(),
