@@ -2,7 +2,6 @@ import { v4 as uuidv4 } from "uuid";
 
 export const state = () => ({
   projectsHeading: "Portfolio",
-  projectsDescription: "Some of the projects I have successfully completed",
   projects: [
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdb",
@@ -701,47 +700,47 @@ export const state = () => ({
       ],
     },
   ],
-  clientsHeading: "Some of the brands I worked with",
+  clientsHeading: "Quelques outils avec lesquels j'ai l'habitude de travailler.",
   clients: [
     {
       id: uuidv4(),
-      title: "Amazon",
-      img: "../brands/amazon_gray.png",
+      title: "Docker",
+      img: "../brands/docker.jpg",
     },
     {
       id: uuidv4(),
-      title: "Sony",
-      img: "../brands/sony_gray.png",
+      title: "JAVA",
+      img: "../brands/java.png",
     },
     {
       id: uuidv4(),
-      title: "Adidas",
-      img: "../brands/adidas_gray.png",
+      title: "mySql",
+      img: "../brands/mySql.jpg",
     },
     {
       id: uuidv4(),
-      title: "FILA",
-      img: "../brands/fila_gray.png",
+      title: "python",
+      img: "../brands/python.png",
     },
     {
       id: uuidv4(),
-      title: "NB",
-      img: "../brands/nb_gray.png",
+      title: "GIT",
+      img: "../brands/git.jpg",
     },
     {
       id: uuidv4(),
-      title: "SAMSUNG",
-      img: "../brands/samsung_gray.png",
+      title: "Vue.JS",
+      img: "../brands/vue.jpg",
     },
     {
       id: uuidv4(),
-      title: "CANON",
-      img: "../brands/canon_gray.png",
+      title: "debian",
+      img: "../brands/debian.jpg",
     },
     {
       id: uuidv4(),
-      title: "PUMA",
-      img: "../brands/puma_gray.png",
+      title: "jenkins",
+      img: "../brands/jenkins.jpg",
     },
   ],
   aboutMe: [
@@ -789,23 +788,18 @@ export const state = () => ({
     {
       id: uuidv4(),
       value: "web",
-      name: "Web Application",
+      name: "Application web",
     },
     {
       id: uuidv4(),
       value: "mobile",
-      name: "Mobile Applicaiton",
+      name: "Applications mobiles",
     },
     {
       id: uuidv4(),
       value: "ui-ux",
-      name: "UI/UX Design",
-    },
-    {
-      id: uuidv4(),
-      value: "branding",
-      name: "Branding & Animations",
-    },
+      name: "Logiciels",
+    }
   ],
 });
 
