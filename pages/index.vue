@@ -17,7 +17,12 @@ export default {
 
 <template>
   <div class="container mx-auto">
+
     <AppBanner />
+
+    <AboutMe />
+
+    <AboutClients />
 
     <ProjectsGrid />
 

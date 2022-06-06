@@ -43,7 +43,7 @@ export default {
           uppercase
         "
       >
-        Hi, I am Alex !
+        Bonjour, je m'appelle Alex !
       </h1>
       <p
         class="
