@@ -1,12 +1,10 @@
 <script>
 import { mapState } from "vuex";
 import HireMeModal from "../HireMeModal.vue";
-import AppNavigation from "./AppNavigation.vue";
 
 export default {
   components: {
     HireMeModal,
-    AppNavigation,
   },
   data: () => {
     return {
@@ -167,14 +165,6 @@ export default {
           </button>
         </div>
       </div>
-
-      <!-- Header links -->
-      <AppNavigation
-        :isOpen="isOpen"
-        :showModal="showModal"
-        :modal="modal"
-        :categories="categories"
-      />
 
       <!-- Header right section buttons -->
       <div
