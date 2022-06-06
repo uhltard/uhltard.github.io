@@ -58,7 +58,7 @@ export default {
           text-gray-400
         "
       >
-        I'm working for Crédit Mutuel Arkéa where I make financial applications using Spring Boot, Vue.js and MySQL.
+        Alternant, je travaille pour le Crédit Mutuel Arkéa où je programme des applications financières en utilisant Spring Boot, Vue.js et MySQL.
       </p>
       <div class="flex justify-center sm:block">
         <a
@@ -94,7 +94,7 @@ export default {
             class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
           ></i>
           <span class="text-sm sm:text-lg font-general-medium duration-100"
-            >Download CV</span
+            >Curriculum vitae</span
           ></a
         >
       </div>
